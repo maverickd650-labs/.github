@@ -1,18 +1,43 @@
-# Security Policy
+# Security policy
 
-Found a security issue with this repository? Thanks for bringing it to our attention, and please read on.
+Security is taken seriously across MaverickD650 Labs projects. Reporting
+instructions and supported versions may differ by repository, so check the
+security policy in the affected project first.
 
-## Reporting a Vulnerability
+## Reporting a vulnerability
 
-Maintainers will attempt to respond to/confirm reports within 2–3 days, but if you believe your report to be "critical" to user safety and security, please note as such in the subject. This repository is regularly monitored and issues will be responded to as maintainer time allows.
+**Please do not report suspected vulnerabilities in public issues, pull
+requests, discussions or social media.**
 
-When reporting an issue, where possible, please provide at least:
+If the repository has GitHub Private Vulnerability Reporting enabled, use the
+**Security** tab and select **Report a vulnerability** to send a private report
+to its maintainers.
 
-* The project and commit version the issue was identified with
-* A proof of concept (plaintext; no binaries)
-* Steps to reproduce
-* Your recommended remediation(s), if any
+If private vulnerability reporting is not available, use a security contact
+explicitly published by that project. If no private contact is provided, contact
+the organisation owner through an appropriate private channel before sharing
+technical details. Do not assume that a public issue is a safe reporting route.
 
-### Report using GitHub issues
+## What to include
 
-To report a vulnerability via GitHub issues, click on the `Issues` tab at the top of any repository and then click on the `New issue` button.
+Where possible, provide:
+
+- The affected repository, product and version or commit.
+- A concise description of the potential impact.
+- Reproduction steps or a proof of concept.
+- Any relevant configuration and environment details.
+- A suggested mitigation, if you have one.
+
+Please avoid sending real credentials, personal data or other people's private
+information. Use test values in proofs of concept.
+
+## Response and disclosure
+
+Projects are independently maintained, so response times cannot be guaranteed.
+Maintainers will aim to acknowledge and assess reports as soon as reasonably
+possible. Please allow time for investigation and coordinated remediation
+before disclosing a vulnerability publicly.
+
+This shared policy is a fallback. A repository-specific security policy takes
+precedence and may provide more precise reporting instructions and supported
+version information.
