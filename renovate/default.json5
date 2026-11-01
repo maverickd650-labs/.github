@@ -1,0 +1,21 @@
+{
+  $schema: "https://docs.renovatebot.com/renovate-schema.json",
+  extends: [
+    "config:recommended",
+    "helpers:pinGitHubActionDigestsToSemver",
+    ":dependencyDashboard",
+    ":disableRateLimiting",
+    ":semanticCommits",
+    ":automergeMinor",
+    ":automergeDigest",
+    ":timezone(Europe/London)",
+  ],
+  gitAuthor: "mav-labs-bot[bot] <350841764+mav-bot[bot]@users.noreply.github.com>",
+  dependencyDashboardTitle: "Renovate Dashboard 🤖",
+  suppressNotifications: [
+    "prEditedNotification",
+    "prIgnoreNotification",
+  ],
+  rebaseWhen: "conflicted",
+  prHourlyLimit: 0,
+}
