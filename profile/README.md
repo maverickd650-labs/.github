@@ -10,6 +10,8 @@ repositories, releases, automation and collaboration.
 
 - **[rss2discord](https://github.com/maverickd650-labs/rss2discord)** — a
   Kubernetes operator that delivers RSS and Atom feed updates to Discord.
+- **[cluster-docs](https://github.com/maverickd650-labs/cluster-docs)** — a
+  Zensical static site supporting the cluster with technical documentation.
 
 More projects will appear here as they become ready to share.
 
